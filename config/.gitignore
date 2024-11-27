@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore model files
+*.caffemodel
+*.h5
+
+# Ignore image files
+*.jpg
+*.png
+
+# Ignore folders
+detected_faces/
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
